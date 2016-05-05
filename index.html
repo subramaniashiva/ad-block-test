@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Ad-Block test</title>
+    <link href='style.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class='container'>
+      <div id='ad-block-warning' class='ad-block-warning'>
+      </div>
+      <div class='content'>
+        <p>This is a demo site which detects whether the user has an ad-block in his browser or not.</p>
+        <p>This is based on the assumption that most of the ad-blockers blocks elements in a page which has class or id names related to ads.</p>
+      </div>
+    </div>
+    <!-- HTML Template. Used only in JS. Will not be shown in front-end-->
+    <div id='ad-block-status-template' class='template'>
+      <p>{{status}}</p>
+    </div>
+    <script src='main.js'></script>
+  </body>
+</html>

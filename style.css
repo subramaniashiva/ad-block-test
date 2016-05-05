@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #252A2F;
+  color: #fff;
+  font-size: 1rem;
+}
+.template {
+  display: none;
+}
+.container {
+  margin: 0 auto;
+  position: relative;;
+}
+.content {
+  padding-top: 4rem;
+  text-align: center;
+}
+.ad-block-warning {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0.5rem;
+  height: 3rem;
+  text-align: center;
+}
+.ad-block-warning.yes {
+  background: #CC0101;
+}
+.ad-block-warning.no {
+  background: #02A502;
+}
