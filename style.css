@@ -22,8 +22,8 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  width: 100%;
-  padding: 0.5rem;
+  width: 98%;
+  padding: 1%;
   height: 3rem;
   text-align: center;
 }
